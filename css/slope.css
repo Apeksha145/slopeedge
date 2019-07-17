@@ -1,0 +1,81 @@
+body{background-color:#f29492;}
+.navbar-dark .navbar-nav .nav-link {
+    font-size: 28px;
+}
+.fa{color:rgba(255, 255 ,255,0.6);}
+footer {background-size: auto;}
+footer {
+    position:absolute;
+    width: 100%;
+    overflow: hidden;
+    background: #212220 fixed no-repeat bottom left;
+    background-size: 100%;
+    -webkit-clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    color: rgba(255,255,255,.6);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-family: 'HaboroSerif-NorBoo';
+    font-weight: 400;
+    padding-bottom:1rem;
+   }
+/*BELOW CODE IS FOR LEARNING
+section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100%;
+	background: #212220 url(//kilianvalkhof.com/wp-content/themes/kvsixteen/static/img/bg3.jpg) fixed no-repeat bottom left;
+    -webkit-clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    color: rgba(255,255,255,.6);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-family: 'HaboroSerif-NorBoo';
+    font-weight: 400;
+    padding-bottom:1rem;
+	clip path value new:
+	-webkit-clip-path: polygon(0 0,100% 3vw,100% 100%,0 calc(100% - 3vw));
+    clip-path: polygon(0 0,100% 3vw,100% 100%,0 calc(100% - 3vw));
+	
+	-webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+}*/
+/* footer {
+    background-size: auto;
+}
+footer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #212220 url(//kilianvalkhof.com/wp-content/themes/kvsixteen/static/img/bg3.jpg) fixed no-repeat bottom left;
+    background-size: 100%;
+    clip-path: url(//kilianvalkhof.com/wp-content/themes/kvsixteen/static/img/shapes.svg#footer);
+    -webkit-clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    clip-path: polygon(0 4vw,100% 0,100% 100%,0 100%);
+    color: rgba(255,255,255,.6);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-family: 'HaboroSerif-NorBoo';
+    font-weight: 400;
+    padding-bottom: 6rem;
+}
+*/
+header {
+    background-size: auto;
+}
+header {
+    position: relative;
+    height: 55vh;
+    min-height: calc(140px + 6vw);
+    width: 100%;
+    overflow: hidden;
+    background: #212220;
+    background-size: 100%;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+    clip-path: polygon(0 0,100% 0,100% 100%,0 calc(100% - 6vw));
+    font-family: 'HaboroSerif-NorBoo';
+    font-weight: 400;
+  /* For IE8 and earlier */
+}
+section{background-color:#f29492;height:150vh}
